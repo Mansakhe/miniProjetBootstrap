@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: margin-box;
+    
+}
+.btn-outline-success{
+    background: #F0811D;
+    color: #fff;
+    border: none;
+    padding: 0 25px;
+    font-weight: bold;
+}
+.login{
+    text-decoration: none;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+}
+.navbar{
+    box-shadow: -20px -100px 10px rgb(0, 0, 0);
+}
+.contMenu{
+    background: rgb(104, 104, 246);
+    height: 75px;
+
+    
+}
+.menu ul{
+    display:flex;
+    padding-right: 10px;
+    list-style-type: none;
+}
+li a{
+    padding-left: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #F0811D, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:600;
+}
+.categorie a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
+.cat{
+    padding: 0px;
+    margin: 0px;
+}
+.bar{
+    background: rgb(255, 255, 255);
+    padding: 0px 0px;
+}
+.bars li a{
+
+    padding-left: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #000000, #F0811D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:800;
+}
+#monselect{
+    padding: 0 70px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.sauv{
+    background: #F0811D;
+    border: none;
+}
+.cellule{
+    border: 1px solid rgb(239, 232, 232);
+    box-shadow: 5px 30px 20px rgb(205, 205, 205);
+}
+.colonne3{
+    border: 2px solid rgb(120, 117, 117);
+}
+.celluleNotific{
+    background: #777777;
+}
+.promo{
+    font-weight: 900;
+    color: #f5b47c;
+}
+.suscrire{
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    background: rgb(3, 3, 75);
+    color: #fff;
+    border: none;
+}
+.footer{
+    background: #4980C1;
+}
+.abonne{
+    background: #0A1A27;
+    color: #fff;
+}
+.copyrigth{
+    background: #1F2324;
+}
+.fa-brands{
+    width: 30px;
+    height: 30px;
+}
+.Afooter{
+    background: #112E46;
+}
+hr{
+    padding: 1px;
+    background: #fff;
+    
+}
+/* box-shadow: 5px 5px 15px rgb(23, 242, 231); */

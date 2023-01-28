@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <title>ptototype_3</title>
+    </head>
+<body>
+
+    <section>
+            <nav class="navbar bg-body-light m-0 p-0">
+                <div class="container-fluid">
+                  <a class="navbar-brand ps-5"><img src="./image/Capture.PNG" width="350px" height="70px"></a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2 pe-5 py-2" type="search" placeholder="Je recherche..." aria-label="Search" >
+                    <button class="btn btn-outline-success me-3" type="submit">Vendre</button> <a class="login ">Inscription/</a><a class="login ">Connexion</a>
+                  </form>
+                </div>
+              </nav>
+    </section>
+
+    <section>
+        <div class="container-fluid contMenu">
+            <div class="nav-bar">
+                <div class="row">
+                    <div class="col-md-5 menu">
+                        <ul class="py-4">
+                            <li><a href="">Vehicules</a></li>
+                            <li><a href="">Offre d'emploi</a></li>
+                            <li><a href="">Immobilier</a></li>
+                            <li><a href="">Multimedia</a></li>
+                            <li><a href="">Maison</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-5  fw-bold categ">
+                        <div class="py-4 categorie">
+                            <a href="#"><img src="./image/rubik.png" class="img-fluid text-center bg-white" width="20px" height="20px"> Autre Catégorie</a>
+                            <a href=""><img src="./image/sac-hermes-kelly-orange-cuir.jpg" class="img-fluid text-center  bg-white" width="30px" height="30px"> Les Boutiques</a>
+                            <a href="" ><span class="promo"> Promo</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container bar m-0 p-0 ">
+            <div class="nav-bar">
+                <div class="row p-0">
+                    <div class="col-md-3 bar ">
+                        <p class="ps-5 pt-4 pb-0 text-start">Filtrer les resultats</p>
+                    </div>
+                    <div class="col-md-7 menu">
+                        <ul class="pt-4 bars">
+                            <li><a href="">Accueil/</a></li>
+                            <li><a href="">Annonce/</a></li>
+                            <li><a href="">Offres d'emploi/</a></li>
+                            <li><a href="">Emplois transpor et logistiaque</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 p-0 m-0 cat"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="bannier">
+                <div class="row">
+                    <!-- colonne1 -->
+                    <div class="col-md-3 py-0 ps-5 ">
+                        <hr>
+                        <div class="mb-3">
+                            <input type="email" class="form-control rounded-1 bg-body-light" id="exampleFormControlInput2" placeholder="Affiner les resultats de la Recherche...">
+                        </div>
+                        <p class=" text-start py-2">Filtrer les resultats</p>
+                        <hr>
+                        <div class="mb-3">
+                            <input type="option" class="form-control rounded-1" id="exampleFormControlInput1" placeholder="Offres speciales">
+                        </div>
+                        <div>
+                            <p class="py-2 m-0 fw-bold">Categories</p>
+                            <hr class="m-0 p-2">
+                            <p class="ps-1"><img src="./image/46-462460_orange-cube-clip-art-rubik-cube-logo-png.png" class="img-fluid text-center  pb-2" width="30px" height="30px"> Annonces</p>
+                            <p class="ps-1"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" class="img-fluid text-center pb-2" width="20px" height="20px"> Offres Emploi</p>
+                            <p class="ps-1">Emploi transport et logistique</p>
+                        </div>
+                        
+                        <div>
+                            <p class="py-2 m-0 fw-bold">Lieu</p>
+                            <hr class="m-0"> 
+                            <p class="ps-1">Senegal</p>
+                            <p class="ps-3">Autre</p>
+                            <p class="ps-3">Dakar</p>
+                        </div>
+                        <div>
+                            <p class="text-start fw-bold m-0" >types de contrat</p>
+                            <select id="monselect" >
+                                <option value="valeur1" class="text-start"></option>
+                                <option value="valeur2">été</option>
+                                <option value="valeur3" >Time</option>
+                            </select>
+                        </div>
+                        <div class="text-center py-2 ">
+                            <button class="btn btn-warning text-white fw-bold  px-5">Filtre</button>
+                        </div>
+                    </div>
+                    <!-- colonne1 exit -->
+                    <!-- colonne2 -->
+                    <div class="col-md-7 ">
+                            <div class="fw-bold py-4 ">Emploi transport et Logistique - senegal<span class="px-4" style="font-size: smaller;font-weight: 400;">27 resultat trouver <button class="sauv p-2 ms-3 rounded-1 text-white fw-bold ">Sauvegarder la recherche</button></span>
+                            </div>
+                            <div class="row cellule m-2">
+                                <div class="col-md-3 text-center py-3"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold">Chauffeur Profesionnele </span>
+                                    <span class="fw-lighter"><br>Almadies,DAKAR
+                                    <br>Aujourd'hui,09:52</span>
+                                </div>
+                            </div>
+                            <div class="row cellule m-2">
+                                <div class="col-md-3 text-center py-3"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold">Chauffeur Profesionnele </span>
+                                    <span class="fw-lighter"><br>Almadies,DAKAR
+                                    <br>Aujourd'hui,09:52</span>
+                                </div>
+                            </div><div class="row celluleNotific m-2 " style="height: 80px;">
+                                <div class="col-md-3 text-center sonnerie rounded-4 py-3"><img src="./image/sonnerie.png" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold text-center text-white">Activer les notifications </span>
+                                    <span class="fw-lighter text-center text-white"><br>Pour recevoir les dernier mise a jour
+                                     <button class=" py-1 rounded-1 suscrire fw-bold px-3">Suscrire</button></span>
+                                </div>
+                            </div>
+                            <div class="row cellule m-2">
+                                <div class="col-md-3 text-center py-3"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold">Chauffeur Profesionnele </span>
+                                    <span class="fw-lighter"><br>Almadies,DAKAR
+                                    <br>Aujourd'hui,09:52</span>
+                                </div>
+                            </div>
+                            <div class="row cellule m-2">
+                                <div class="col-md-3 text-center py-3"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold">Chauffeur Profesionnele </span>
+                                    <span class="fw-lighter"><br>Almadies,DAKAR
+                                    <br>Aujourd'hui,09:52</span>
+                                </div>
+                            </div><div class="row cellule m-2">
+                                <div class="col-md-3 text-center py-3"><img src="./image/sac-hermes-kelly-orange-cuir.jpg" width="60px" height="60px" class="img-fluid"></div>
+                                <div class="col-md-9 pb-4">
+                                    <br> <span class="fw-bold">Chauffeur Profesionnele </span>
+                                    <span class="fw-lighter"><br>Almadies,DAKAR
+                                    <br>Aujourd'hui,09:52</span>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- colonne2 exit -->
+                    <!-- colonne3 -->
+                    <div class="col-md-2 p-0 m-0  colonne">
+                        <img src="./image/meadow-2401911_1920.jpg"  height="700px" width="200px" style="object-fit:cover;">
+                    </div>
+                    <!-- colonne3 exit -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row footer mt-4 py-4">
+                <div class="col-md-4 text-start text-white">
+                    <h5 class="fw-bold ps-1">Restez informés avec notre newsletter</h5>
+                  <span class=""> Recevez notre sélection hebdomadaire des meilleures !</span>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                      <input type="option" class="form-control rounded-1" id="exampleFormControlInput1" placeholder="Adresse e-mail">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="p-1 px-2 rounded-1 text-center abonne fw-bold">Je m'abonne</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- foot -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
+    <!-- foot exit -->
+
+    <!-- footer -->
+    <section>
+        <div class="container-fluid">
+            <div class="row py-4 Afooter text-white">
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-4 text-start">
+                           <p>Qui sommes Nous ?</p>
+                           <p>Deals</p> 
+                           <p>Les Boutiques</p>
+                        </div>
+                        <div class="col-md-4 text-start">
+                           <p>Contact</p>
+                           <p>Blog</p> 
+                        </div>
+                        <div class="col-md-4 text-start">
+                            <p>Vendre en Ligne</p>
+                            <p>Conditions et Charte<br>d'utilisation</p>
+                        </div>
+                        <p>SITES INTERNATIONAUX</p>
+                        <hr>
+                        <div class="col-md-4 text-start">  
+                            <p>ROAM</p> 
+                         </div>
+                         <div class="col-md-4 text-start">
+                            <p>Qefira</p> 
+                         </div>
+                         <div class="col-md-4 text-start">
+                             <p>Pigiame</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" >
+                   <i style="text-decoration: underline;"> TÉLÉCHARGEZ NOTRE APPLI </i>
+                   <div class="py-2 rounded-1">
+                        <img src="./image/googleplay.PNG" width="150px" height="30px" class="img-fluid rounded-1">
+                   </div>
+                </div>
+                <div class="col-md-4 text-center" >
+                    <i style="text-decoration: underline;">SUIVRE EXPAT-DAKAR</i>
+                    <div class="p-4">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer exit -->
+
+    <!-- copyright -->
+    <section class="copyrigth text-white py-1 ps-4">
+        <p >Tous droits réservés © 2016-2023 Expat-Dakar</p>
+    </section>
+    <!-- copyright exit -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="tooltip"]'
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+        );
+    </script>
+    
+</body>
+</html>
